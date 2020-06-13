@@ -19,3 +19,13 @@ Objective is to apply the style of an image, which we will term as "style image"
 1. Create a random input image
 2. Pass the input through a pre-trained backbone architecture
 3. Calculate loss and compute the gradients w.r.t input image pixels. Hence only the input pixels are adjusted whereas the weights remain constant.
+
+# This problem consists of two sub problems:
+1. To generate the content and
+2. To generate the style
+
+The images are attached : The input Image and the Style Image.
+
+Input Image: https://github.com/myelinfoundry-2019/challenge/blob/master/japanese_garden.jpg
+
+Style Image: https://github.com/myelinfoundry-2019/challenge/blob/master/picasso_selfportrait.jpg
